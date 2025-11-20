@@ -23,7 +23,7 @@ function App() {
 
       {/* User pages */}
       <Route
-        path="/home"
+        path="/"
         element={
           <RequiredRole allowedRoles={["user", "admin"]}>
             <div>
